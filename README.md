@@ -1,0 +1,2 @@
+# My_Portfolio
+Developed a Responsive Personal Portfolio to illustrate my skills, previous projects, biodata, and contact information. Designed the website's Frontend using HTML and CSS. This website is compatible with all mobile devices. Anyone visiting the website can get in touch with the owner using the contact form included in the portfolio. Used Netlify to deploy the website. Netlify's built-in forms are used to receive user messages/files.
