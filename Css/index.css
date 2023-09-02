@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: whitesmoke;
     
 }
  
@@ -21,6 +22,56 @@ html, body {
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
     touch-action: manipulation;
 }
+
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(15,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    
+}
+
+/* .logo{
+    height: 50px;
+    margin: 1px 15px 15px 10px;
+    padding: 13px;
+    float: left;
+    position: relative;
+  } */
+
+.header img{
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    /* float: right; */
+}
+
+li a {
+    text-decoration: none;   
+    font-weight: bold;
+}
+
+nav ul li{
+    padding: 20px 10px;
+    height: 100%;
+}
+
+
+/* nav ul li{
+    position: relative;
+    left: 400%;
+} */
