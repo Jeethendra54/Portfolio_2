@@ -27,29 +27,25 @@ body{
 
 .header{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(15,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
+    background-image: linear-gradient(rgba(4,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed;
     
 }
 
-/* .logo{
-    height: 50px;
-    margin: 1px 15px 15px 10px;
-    padding: 13px;
-    float: left;
-    position: relative;
-  } */
-
 .header img{
     height: 50px;
     padding-top: 10px;
-    padding-left: 5px;
-
+    padding-left: 13px;
 }
 
-.header{
+/* .header{
+    display: block;
+    justify-content: space-between;
+} */
+
+.nav-list{
     display: flex;
     justify-content: space-between;
 }
@@ -57,21 +53,33 @@ body{
 nav ul{
     display: flex;
     list-style-type: none;
-    /* float: right; */
+    margin-right: 5px;
 }
 
 li a {
     text-decoration: none;   
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 nav ul li{
-    padding: 20px 10px;
+    padding: 18px 17px;
     height: 100%;
+    font-size: 18px;
 }
 
+.intro{
+    /* text-align: center; */
+    display: block;
+    padding-top: 10em;
+    padding-left: 5rem;
+}
 
-/* nav ul li{
-    position: relative;
-    left: 400%;
-} */
+.intro h3{
+    /* padding:20px */
+    font-size: 1.5em;
+}
+
+.intro h2{
+    color: #ff365a;
+    font-size: 2em;
+}
