@@ -4,6 +4,10 @@
     color: whitesmoke;
     
 }
+
+a{
+    text-decoration: none;
+}
  
 html{
     scroll-behavior: smooth;
@@ -27,11 +31,11 @@ body{
 
 .header{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(4,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
+    /* background-image: linear-gradient(rgba(4,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg'); */
+    background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    
 }
 
 .header img{
@@ -39,11 +43,6 @@ body{
     padding-top: 10px;
     padding-left: 13px;
 }
-
-/* .header{
-    display: block;
-    justify-content: space-between;
-} */
 
 .nav-list{
     display: flex;
@@ -56,30 +55,81 @@ nav ul{
     margin-right: 5px;
 }
 
-li a {
-    text-decoration: none;   
-    /* font-weight: bold; */
-}
-
 nav ul li{
     padding: 18px 17px;
     height: 100%;
     font-size: 18px;
 }
 
+li a:hover{
+    color: #ff365a;
+}
+
 .intro{
-    /* text-align: center; */
     display: block;
-    padding-top: 10em;
+    padding-top: 8em;
     padding-left: 5rem;
 }
 
+.intro h1{
+    font-size: 2.4em;
+}
+
+.intro span{
+    color: #ff365a;
+}
+
 .intro h3{
-    /* padding:20px */
-    font-size: 1.5em;
+    font-size: 1.75em;
+    margin-top: 1.5%;
 }
 
 .intro h2{
     color: #ff365a;
     font-size: 2em;
+}
+
+.intro p{
+    font-size: 1.5em;
+}
+
+.btns-container{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px none #ff365a;
+    max-width: 500px;
+}
+
+.btns-container p{
+    display: inline;
+    padding: 20px;
+    border: 3px solid #ff365a;
+    border-radius: 50px;
+}
+
+.btns-container p:hover{
+    background-color: #ff365a;
+}
+
+
+
+
+/* Animations part  */
+
+.intro p , h2 , h3 , h1 {
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: slideIn 1.3s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
