@@ -117,7 +117,7 @@ li a:hover{
 
 /* Animations part  */
 
-.intro p , h2 , h3 , h1 {
+/* .intro p , h2 , h3 , h1 {
     opacity: 0;
     transform: translateX(-20px);
     animation: slideIn 1.3s ease-in-out forwards;
@@ -132,4 +132,14 @@ li a:hover{
         opacity: 1;
         transform: translateX(0px);
     }
+} */
+
+
+
+/* .about{
+    padding: 40px 40px;
+} */
+
+.about-title span{
+    color: #ff365a;
 }

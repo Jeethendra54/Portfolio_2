@@ -1,0 +1,73 @@
+.contact{
+    display:flex;
+    /* flex-direction: row-reverse; */
+    justify-content:space-around;
+}
+
+.contact-form{
+    border: none;
+    padding: 25px;
+    height: 450px;
+    width: 500px;
+}
+
+
+label{
+    font-size: 19px;
+}
+
+input[type=text]{
+    color: white;
+    height: 25px;
+    width: 300px;
+    padding: 12px;
+    /* margin-top: 6px; */
+    margin-bottom: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: transparent;
+    border: 0.5px solid white;
+    font-size: 17px;
+}
+
+
+
+input[type=email]{
+    color: white;
+    height: 25px;
+    width: 300px;
+    padding: 12px;
+    /* margin-top: 6px; */
+    margin-bottom: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    background: transparent;
+    border: 0.5px solid white;
+    font-size: 17px;
+}
+
+#message{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 250px;
+    width: 450px;
+    padding: 12px;
+    margin-top: 6px;
+    /* margin-bottom: 16px; */
+    text-decoration: none;
+    border-radius: 5px;
+    background: transparent;
+    border: 0.5px solid white;
+    font-size: 17px;
+    resize: none;
+}
+
+button{
+    background-color: #ff365a;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 17px;
+}
