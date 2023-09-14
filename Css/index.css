@@ -38,15 +38,27 @@ body{
     /* background-attachment: fixed; */
 }
 
+/* .nav-list{
+     position: fixed;
+    top: 0; 
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+} */
+
 .header img{
-    height: 50px;
+    height: 43px;
     padding-top: 10px;
     padding-left: 13px;
 }
 
 .nav-list{
+    /* position: sticky;
+    top: 0;
+    z-index: 100; */
     display: flex;
     justify-content: space-between;
+
 }
 
 nav ul{
