@@ -124,6 +124,7 @@ li a:hover{
     padding: 20px;
     border: 3px solid #ff365a;
     border-radius: 50px;
+    margin-left: -40px;
 }
 
 .btns-container p:hover{
