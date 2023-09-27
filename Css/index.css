@@ -38,9 +38,10 @@ body{
 .header{
     min-height: 100vh;
     /* background-image: linear-gradient(rgba(4,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg'); */
-    background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat; 
+    /* background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg'); */
+    background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,10,0.7)),url('../Images/Background/sample_bg.JPG');
+    background-size:cover;
+    background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
 
@@ -56,8 +57,6 @@ body{
     height: 48px;
     padding-top: 10px;
     padding-left: 13px;
-    /* background-color: white;
-    border-radius: 300px; */
 }
 
 .nav-list{
@@ -66,7 +65,6 @@ body{
     z-index: 100; */
     display: flex;
     justify-content: space-between;
-
 }
 
 nav ul{
