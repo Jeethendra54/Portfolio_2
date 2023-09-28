@@ -7,6 +7,6 @@ console.log(tags)
 for(let i=0;i<tags.length;i++){
     let tag = tags[i]
     tag.addEventListener('click',e=>{
-        
+      console.log(tag.innerText)  
     })
 }
