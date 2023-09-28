@@ -1,0 +1,42 @@
+.about-title{
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+.image-info{
+    /* border: 3px solid red;
+    height: 300px;
+    width: 450px; */
+    /* background-image: url('/Images/Background/ratio_4_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* min-height: 50vh; */
+    /* border-radius: 400px; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+
+}
+
+figure{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.image-info img{
+    height: 300px;
+    border-radius: 250px;
+}
+
+.image-info h3{
+    text-align: justify;
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

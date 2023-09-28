@@ -2,9 +2,11 @@
     text-align: center;
 }
 
-.heading h3{
+.services .heading h3{
     color: #ff365a;
 }
+
+
 
 .services-box{
     display: flex;
