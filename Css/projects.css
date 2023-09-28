@@ -1,6 +1,8 @@
 .projects{
     margin-top: 5%;
     margin-bottom: 5%;
+    border: 2px solid red;
+    height: 500px;
 }
 
 .projects .heading h3{
