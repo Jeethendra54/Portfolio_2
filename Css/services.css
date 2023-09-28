@@ -23,11 +23,38 @@
     text-align: center;
 }
 
-.service div{
+/* .service div{
     margin-top: 25%;
     margin-bottom: 5%;
-}
+} */
 
 .service p{
     color: #ff365a;
+}
+
+
+.popup-wrapper{
+    display: none;
+    background: rgb(0,0,0,0.5);
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.popup-close{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.popup-content{
+    margin-top: 25%;
+}
+
+.popup{
+    cursor: pointer;
 }

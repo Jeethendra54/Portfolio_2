@@ -38,8 +38,8 @@ body{
 .header{
     min-height: 100vh;
     /* background-image: linear-gradient(rgba(4,9,12,0.5),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg'); */
-    background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg');
-    /* background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,10,0.7)),url('../Images/Background/sample_bg.JPG'); */
+    /* background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,30,0.7)),url('../Images/Background/back.jpeg'); */
+    background-image: linear-gradient(rgba(4,9,12,0.65),rgba(4,9,10,0.7)),url('../Images/Background/sample_bg.JPG');
     background-size:cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
@@ -70,13 +70,14 @@ body{
 nav ul{
     display: flex;
     list-style-type: none;
-    margin-right: 5px;
+    margin-right: 0px;
     flex-grow: 1;
     flex-wrap: wrap; /*check this property*/
 }
 
 nav ul li{
-    padding: 18px 17px;
+    /* padding:18px 17px; */
+    padding: 18px 14px;
     height: 100%;
     font-size: 18px;
 }
