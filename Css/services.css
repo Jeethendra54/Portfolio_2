@@ -23,6 +23,7 @@
     text-align: center;
 }
 
+
 /* .service div{
     margin-top: 25%;
     margin-bottom: 5%;
@@ -32,27 +33,35 @@
     color: #ff365a;
 }
 
+.service>div{
+    margin-top: 25%;
+    
+}
+
 
 .popup-wrapper{
     display: none;
-    background: rgb(0,0,0,0.5);
+    /* background: rgb(0,0,0,0.5); */
+    /* background: rgb(0,0,0,0.7); */
+    background-color:brown;
     position: fixed;
-    top: 25%;
-    left: 25%;
-    width: 50%;
+    top: -25%;
+    left: 35%;
+    width: 30%;
     height: 50%;
 }
 
 .popup-close{
     position: absolute;
-    right: 10px;
-    top: 2px;
+    right: 15px;
+    top: 5px;
     font-size: 1.2em;
     cursor: pointer;
 }
 
-.popup-content{
-    margin-top: 25%;
+.popup-content ul li{
+    /* margin-top: 25%; */
+    list-style: none;
 }
 
 .popup{
