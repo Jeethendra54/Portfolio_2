@@ -41,9 +41,11 @@
 
 .popup-wrapper{
     display: none;
-    background: rgb(0,0,0,0.5);
+    /* background: rgb(0,0,0,1); */
     /* background: rgb(0,0,0,0.7); */
+    background-color: #040D12;
     /* background-color:brown; */
+
     position: fixed;
     top: -25%;
     left: 35%;
@@ -54,19 +56,30 @@
 .popup-close{
     position: absolute;
     right: 15px;
-    top: 5px;
+    top: 10px;
+    float: right;
     font-size: 1.2em;
     cursor: pointer;
 }
 
-.popup-content ul li{
-    /* margin-top: 25%; */
-    list-style: none;
-    /* margin-top: 5%;
-    position: relative;
-    right: 4%; */
+.popup-content{
+    /* border: 2px solid cyan; */
+    /* padding: 10%; */
+    margin-top: 5%;
+    text-align: center;
+
 }
 
 .popup{
     cursor: pointer;
+}
+
+.popup-content div{
+    text-align: justify;
+    padding-top: 6%;
+    padding-left: 4%;
+}
+
+.popup-heading h3{
+    text-align: center;
 }
