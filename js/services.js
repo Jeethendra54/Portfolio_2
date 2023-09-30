@@ -17,7 +17,6 @@ const popup_wrapper = document.querySelectorAll('.popup-wrapper');
 
 const popup = document.querySelectorAll('.popup');
 
-
 popup.forEach((elem , index)=>{
   console.log(elem.innerText)
   elem.addEventListener('click',()=>{
@@ -43,5 +42,5 @@ popup_close.forEach((elem,index)=>{
 
 // check this 
 // popup_wrapper.addEventListener('click',()=>{
-//   popup_wrapper.style.display = 'none'
+//   popup_wrapper[index].style.display = 'none'
 // })
