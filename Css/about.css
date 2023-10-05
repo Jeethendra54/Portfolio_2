@@ -3,6 +3,9 @@
     margin-top: 10%;
 }
 
+.about-info{
+    border:2px solid #ff365a;
+}
 
 .image-info{
     /* border: 3px solid red;
@@ -15,7 +18,7 @@
     /* border-radius: 400px; */
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 
 }
 

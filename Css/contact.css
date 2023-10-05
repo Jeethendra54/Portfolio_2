@@ -1,9 +1,17 @@
 .contact{
+    /* display:flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly; */
+    /* margin-top: 2%; */
+    /* margin-bottom: 8%; */
+    border: 2px solid #ff365a;
+    height: 650px;
+}
+
+.contact-container{
     display:flex;
     flex-direction: row-reverse;
     justify-content:space-evenly;
-    margin-top: 2%;
-    /* margin-bottom: 8%; */
 }
 
 .contact-box{
@@ -32,6 +40,12 @@
 
 .contact-heading h1{
     font-size: 1.6rem;
+    /* display: block; */
+}
+
+.contact-heading{
+    display: block;
+    text-align:center;
 }
 
 

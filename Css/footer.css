@@ -1,3 +1,17 @@
-.footer{
-    border: 2px solid red;
+footer{
+    border: 2px solid cyan;
+    background-color: #1e1e1e;
+    height: 250px;
+}
+
+.quick-link-heading h2{
+    /* border: 2px solid #ff365a; */
+    /* height: 0.2px; */
+    /* width: 50px; */
+    border-bottom: 2px solid #ff365a;
+    /* width: 50px; */
+}
+
+.copyright{
+    text-align: center;
 }
